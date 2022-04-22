@@ -12,4 +12,8 @@ export class SignupFormComponent {
     console.log(x);
   }
 
+  submit(f:any){
+    console.log(f);
+  }
+
 }
