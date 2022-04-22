@@ -14,6 +14,7 @@ export class SignupFormComponent {
 
   submit(f:any){
     console.log(f);
+    f.valid
   }
 
 }
