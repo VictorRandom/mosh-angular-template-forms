@@ -8,6 +8,11 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 })
 export class SignupFormComponent {
 
+  contactMethods = [
+    {id: 1, name: 'Email'},
+    {id: 2, name: 'Phone'},
+  ]
+
   log(x:any){
     console.log(x);
   }
@@ -16,5 +21,7 @@ export class SignupFormComponent {
     console.log(f);
     f.valid
   }
+
+
 
 }
